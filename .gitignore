@@ -1,1 +1,15 @@
-venv
+venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+dist/
+build/
+*.log
+storage/
+project/logs/*.log
+project/database/migrations/versions/*.pyc
